@@ -109,6 +109,7 @@ class Card {
     this.status = "pending";
     this.family = fontObj.family;
     this.link = fontObj.files[fontObj.variants[0]];
+    this.link = "https" + this.link.substring(4);
     this.createCard();
     this.setText(randomPreviewText());
     observer.observe(this.fontTitle);
