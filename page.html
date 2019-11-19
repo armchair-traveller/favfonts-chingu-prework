@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Favorite Fonts</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header + Minor Nav -->
+    <header>
+      <a href="#"><h1>FOUT Mono</h1></a>
+      <nav class="lil-nav">
+        <a href="#">Catalog</a>
+        <a href="#">Featured</a>
+        <a href="#">Articles</a>
+        <a href="#">About</a>
+      </nav>
+    </header>
+    <!-- Major Nav -->
+    <!-- Tip: Shrink <svg> tags for readability! -->
+    <nav class="big-nav-wrapper">
+      <div class="big-nav">
+        <input class="search-bar" placeholder="Search Fonts" />
+        <input
+          class="preview-input"
+          type="text"
+          placeholder="Type Something                                                                                                                                                                 You're Giving Up On Me"
+        />
+        <div class="dropdown-wrapper">
+          <select class="font-size-drop">
+            <option value="20px">20px</option>
+            <option value="24px" selected>24px</option>
+            <option value="30px">30px</option>
+            <option value="40px">40px</option>
+          </select>
+        </div>
+        <button class="darkmode-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <button class="lightmode-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+        <button class="grid-list-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="8" y1="6" x2="21" y2="6"></line>
+            <line x1="8" y1="12" x2="21" y2="12"></line>
+            <line x1="8" y1="18" x2="21" y2="18"></line>
+            <line x1="3" y1="6" x2="3.01" y2="6"></line>
+            <line x1="3" y1="12" x2="3.01" y2="12"></line>
+            <line x1="3" y1="18" x2="3.01" y2="18"></line>
+          </svg>
+        </button>
+        <button class="reset-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="23 4 23 10 17 10"></polyline>
+            <polyline points="1 20 1 14 7 14"></polyline>
+            <path
+              d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <!-- Main Area -->
+    <main class="card-area">
+      <!-- example font card, actual rendering via JS -->
+      <!-- 
+      <article class="font-card">
+        <h2 class="font-title"></h2>
+        <button class="add-btn"></button>
+        <p class="font-preview">sample text</p>
+      </article>
+      -->
+    </main>
+    <!-- back to top button -->
+    <a href="#"><button class="back-to-top"></button></a>
+    <!-- Dev info footer -->
+    <footer>
+      <h1>coded by armchair-traveller | 2019 | Chingu Pre-Work Project</h1>
+    </footer>
+
+    <script src="functionality.js"></script>
+  </body>
+</html>
