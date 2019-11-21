@@ -1,3 +1,5 @@
+"use strict"
+
 const initState = {
   previewText: [
     "Great fonts are not born great, they grow great.",
